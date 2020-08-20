@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "088cc15e-0136-4094-8ae3-1f0a5be5e8a4",
+            "Value": {
+                "id": "5a2197c3-28ad-48d7-a490-307e0b4b8f6a",
+                "resourcePath": "views\\088cc15e-0136-4094-8ae3-1f0a5be5e8a4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "09315239-5310-4c71-960e-3b52f01a74a4",
             "Value": {
                 "id": "2cf32d26-5011-491f-a55a-2e6329508903",
@@ -519,6 +527,14 @@
             }
         },
         {
+            "Key": "44210681-64a7-4e1d-a265-fada682c251f",
+            "Value": {
+                "id": "b702f666-6687-49c8-a78c-30f7d6ad3208",
+                "resourcePath": "objects\\obj_ketchupball\\obj_ketchupball.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "442a5bc7-8a46-42cb-aa01-f5b1e6011df1",
             "Value": {
                 "id": "d424f425-c4da-4952-8bed-95ffadb7d4dc",
@@ -555,6 +571,14 @@
             "Value": {
                 "id": "430ca761-6a93-4b60-9e3f-c785f7f574f0",
                 "resourcePath": "objects\\obj_testnpc\\obj_testnpc.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "499502c0-235d-4c36-94c3-4160cdda8f3b",
+            "Value": {
+                "id": "62d338bb-4fcf-4fb0-a314-95362f241bfc",
+                "resourcePath": "objects\\obj_buttonwallrespawner\\obj_buttonwallrespawner.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -719,6 +743,14 @@
             }
         },
         {
+            "Key": "604f53cb-53b7-40cf-bacd-d448e126313e",
+            "Value": {
+                "id": "a05cbf1d-e2ba-4d47-86c7-e86f9a1e42ff",
+                "resourcePath": "sounds\\snd_templetheme\\snd_templetheme.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "62c1bdd2-e485-45ca-be52-a3ce489770f1",
             "Value": {
                 "id": "3c8c5394-f87b-42a9-871b-1706a03251e3",
@@ -828,6 +860,14 @@
                 "id": "2fc28eae-dde2-4bbb-8779-0362354209fc",
                 "resourcePath": "views\\74b62599-62e5-4db3-9d2a-5f5917ceb122.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7582a630-39f0-48de-93f9-21844a47fc42",
+            "Value": {
+                "id": "08f31fa2-28b4-4ce3-90e6-1dd4216ce4ac",
+                "resourcePath": "objects\\obj_ketchupballspawner\\obj_ketchupballspawner.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1111,6 +1151,14 @@
             }
         },
         {
+            "Key": "9cb78e97-4a40-472f-adbc-5182b20ea618",
+            "Value": {
+                "id": "cd61a972-359d-4448-b21d-e7a88e8b764a",
+                "resourcePath": "views\\9cb78e97-4a40-472f-adbc-5182b20ea618.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "9de28580-f333-4c7a-81af-d5eb57f54814",
             "Value": {
                 "id": "cdd1c247-2702-495e-ad4b-6c7d46c962f8",
@@ -1319,6 +1367,14 @@
             }
         },
         {
+            "Key": "c3edbf6e-4101-4cf4-b13b-1cf177ad7567",
+            "Value": {
+                "id": "157fefac-f2ea-4a8e-9d28-f8815d149177",
+                "resourcePath": "views\\c3edbf6e-4101-4cf4-b13b-1cf177ad7567.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c6008d64-8f10-4568-a9e4-4cf802d5aee0",
             "Value": {
                 "id": "bde35548-3349-40f8-b86e-9380577c440e",
@@ -1431,14 +1487,6 @@
             }
         },
         {
-            "Key": "dd52d0ee-12ec-4cd4-8895-74f591d26c32",
-            "Value": {
-                "id": "ab0fbef1-2c1d-4e1a-b33c-bb3b4da5b08b",
-                "resourcePath": "objects\\obj_ketchupball\\obj_ketchupball.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "dd8ae421-d53c-4208-9736-1b45b05b6a52",
             "Value": {
                 "id": "c3375485-1cb8-4558-89c4-8b6020f87228",
@@ -1452,6 +1500,14 @@
                 "id": "d394bbbd-67ec-4807-b6b8-9136ae6f4746",
                 "resourcePath": "tilesets\\til_t2d\\til_t2d.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "ddd74fa1-bda8-4580-8588-537f73119337",
+            "Value": {
+                "id": "32e0f025-91f2-46b6-bdaf-d8fb9c29a217",
+                "resourcePath": "objects\\obj_ketchupballdestroyer\\obj_ketchupballdestroyer.yy",
+                "resourceType": "GMObject"
             }
         },
         {

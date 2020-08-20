@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 7180F450
-/// @DnDArgument : "code" "	if (keyboard_check_pressed(vk_enter)) {$(13_10)		switch (menuPosition) {$(13_10)		case 0: //Resume$(13_10)		drawPauseMenu = false;$(13_10)		obj_player.state = scr_move_state;$(13_10)		menuPosition = 0;$(13_10)		break;$(13_10)		//case 1:$(13_10)		//drawInventory = true;$(13_10)		//break;$(13_10)		case 1: //Save$(13_10)		//show_message("As of now, saving and loading is not a feature. Sorry!");$(13_10)		scr_save_game();$(13_10)		break;$(13_10)		case 2: //Load$(13_10)		scr_load_game();$(13_10)		//show_message("As of now, saving and loading is not a feature. Sorry!");$(13_10)		break;$(13_10)		case 3: //Restart$(13_10)		game_restart();$(13_10)		break; $(13_10)		case 4: //Quit Game$(13_10)		game_end();$(13_10)		break;$(13_10)		}$(13_10)		$(13_10)	}$(13_10)	$(13_10)	$(13_10)	if (drawRespMenu) {$(13_10)		$(13_10)		show_message("test");$(13_10)		$(13_10)	}"
+/// @DnDArgument : "code" "	if (keyboard_check_pressed(vk_enter)) {$(13_10)		switch (menuPosition) {$(13_10)		case 0: //Resume$(13_10)		drawPauseMenu = false;$(13_10)		obj_player.state = scr_move_state;$(13_10)		menuPosition = 0;$(13_10)		break;$(13_10)		//case 1:$(13_10)		//drawInventory = true;$(13_10)		//break;$(13_10)		case 1: //Save$(13_10)		//show_message("As of now, saving and loading is not a feature. Sorry!");$(13_10)		scr_save_game();$(13_10)		break;$(13_10)		case 2: //Load$(13_10)		scr_load_game();$(13_10)		//show_message("As of now, saving and loading is not a feature. Sorry!");$(13_10)		break;$(13_10)		case 3: //Fullscreen$(13_10)		if (!fullscreen) {$(13_10)			window_set_fullscreen(true);$(13_10)			fullscreen = true;$(13_10)		} else {$(13_10)			window_set_fullscreen(false);$(13_10)			fullscreen = false;$(13_10)		}$(13_10)		break; $(13_10)		case 4: //Restart$(13_10)		game_restart();$(13_10)		break;$(13_10)		case 5: //Exit Game$(13_10)		game_end();$(13_10)		break;$(13_10)		}$(13_10)		$(13_10)	}$(13_10)	$(13_10)	$(13_10)	if (drawRespMenu) {$(13_10)		$(13_10)		show_message("test");$(13_10)		$(13_10)	}"
 	if (keyboard_check_pressed(vk_enter)) {
 		switch (menuPosition) {
 		case 0: //Resume
@@ -20,10 +20,19 @@
 		scr_load_game();
 		//show_message("As of now, saving and loading is not a feature. Sorry!");
 		break;
-		case 3: //Restart
-		game_restart();
+		case 3: //Fullscreen
+		if (!fullscreen) {
+			window_set_fullscreen(true);
+			fullscreen = true;
+		} else {
+			window_set_fullscreen(false);
+			fullscreen = false;
+		}
 		break; 
-		case 4: //Quit Game
+		case 4: //Restart
+		game_restart();
+		break;
+		case 5: //Exit Game
 		game_end();
 		break;
 		}

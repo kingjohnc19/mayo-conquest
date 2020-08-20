@@ -20,7 +20,13 @@
         "d3524fe5-c36f-4ad7-8ba5-33286d0833e4",
         "521949d9-0951-458e-990d-c3e78a527713",
         "75d40298-e309-446f-8814-23e65dc5390f",
-        "82dc6370-21da-4a49-af1e-30900c85f4ab"
+        "82dc6370-21da-4a49-af1e-30900c85f4ab",
+        "fcdc3468-0cb0-4a10-acf8-835c69acda30",
+        "8354734b-26d3-4fb8-8d3f-526ec3e442ac",
+        "4149e2f5-b1d2-412b-958b-f4ddfc437668",
+        "a6f0c27f-8c74-4f82-85d4-eb5b860c4e77",
+        "5fa7a8c1-3b4e-48ca-b0b7-1bd9a4ca85f2",
+        "6ec4f250-60e7-4a9f-b5b6-4aa382af4f25"
     ],
     "filterType": "GMObject",
     "folderName": "Helper objects",
